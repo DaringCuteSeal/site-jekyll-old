@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/assets/css/theme.css">
+
+		{% for css in page.css %}
+		<link rel="stylesheet" href="/assets/css/{{ css }}.css">
+		{% endfor %}
+
+		{% for css in layout.css %}
+		<link rel="stylesheet" href="/assets/css/{{ css }}.css">
+		{% endfor %}
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		{{ content }}
+	</body>
+</html>
+		

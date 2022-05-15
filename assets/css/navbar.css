@@ -1,0 +1,13 @@
+.navbar {
+	list-style-type: none;
+}
+
+.nav-list {
+	padding: 0px;
+}
+
+.nav-item {
+	display: inline-block;
+	padding-left: 2px;
+	padding-right: 2px;
+}

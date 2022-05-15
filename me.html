@@ -1,0 +1,37 @@
+---
+layout: default
+title: About me
+
+css:
+- navbar
+- about
+
+navbar:
+- name: Home
+  url: /
+
+---
+{% include navbar.html %}
+
+<!-- Somehow naming this 'about.html' breaks the navbar..?? -->
+<!-- I tried symbolic linking 'me.html' to 'about.html' and the
+     about.html actually shows navbar from the blog layout -->
+
+<h1>About Me</h1>
+
+<p>Hi!! So.. I'm Pearl&mdash;well actually that's my nickname, but I just liked to be called that way. You can find me under the username "Daringcuteseal" or "Mysticreator" across the internet. I'm 13, and I live in Indonesia. I enjoy art and programming. I'm primarily a 3D (Blender) artist, even though I actually am learning how to draw digitally in 2D and I have a lot of free time to code too.</p>
+
+<div class="me">
+	<div class="me-img">
+		<img src="/assets/image/me-1.png" height=300px>
+		<p>Me</p>
+	</div>
+	<div class="me-img">
+		<img src="/assets/image/me-2.png" height=300px>
+		<p>Also me</p>
+	</div>
+	<div class="me-img">
+		<img src="/assets/image/me-moss.jpg" height=300px>
+		<p>Also me, IRL, with fuzzy mosses on a stone</p>
+	</div>
+</div>

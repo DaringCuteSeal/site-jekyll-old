@@ -1,0 +1,12 @@
+.me {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.me-img {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+}
