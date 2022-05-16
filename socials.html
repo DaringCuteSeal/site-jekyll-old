@@ -1,0 +1,97 @@
+---
+layout: default
+
+css:
+- navbar
+- socials
+
+navbar:
+- name: Home
+  url: /
+
+socials:
+- name: Reddit
+  url: https://www.reddit.com
+  user: Daringcuteseal
+  profile: https://www.reddit.com/user/Daringcuteseal
+- name: Odysee
+  url: https://odysee.com
+  user: Daringcuteseal
+  profile: https://odysee.com/@Daringcuteseal:6
+- name: YouTube
+  url: https://www.youtube.com
+  user: Daringcuteseal
+  profile: https://www.youtube.com/c/Daringcuteseal
+- name: Telegram
+  url: https://telegram.org
+  user: Daringcuteseal
+  profile: https://t.me/Daringcuteseal
+- name: Instagram
+  url: https://www.instagram.com
+  user: daringcuteseal
+  profile: https://www.instagram.com/daringcuteseal
+
+not-socials:
+- name: GitHub
+  url: https://github.com
+  user: DaringCuteSeal
+  profile: https://github.com/DaringCuteSeal
+- name: Sketchfab
+  url: https://sketchfab.com
+  user: Mysticreator (and plz buy/download my models lol)
+  profile: https://sketchfab.com/Mysticreator
+- name: DeviantArt
+  url: https://www.deviantart.com
+  user: Daringcuteseal
+  profile: https://www.deviantart.com/daringcuteseal/
+- name: SheepIt
+  url: https://www.sheepit-renderfarm.com
+  user: Daringcuteseal
+  profile: https://www.sheepit-renderfarm.com/user/Daringcuteseal/profile
+- name: Keymash
+  url: https://keymash.io
+  user: Daringcuteseal#9813
+  profile: https://keymash.io/profile/Daringcuteseal-9813/
+- name: AUR
+  url: https://aur.archlinux.org
+  user: daringcuteseal
+  profile: https://aur.archlinux.org/account/daringcuteseal
+- name: Scratch 
+  url: https://scratch.mit.edu
+  user: Mysticreator
+  profile: https://scratch.mit.edu/users/Mysticreator
+
+---
+
+{% include navbar.html %}
+
+<div class="social">
+	<p>Here are my social accounts across the internet (from most active to least active):</p>
+
+	<ul>
+		{% for link in page.socials %}
+		<li>
+			<p><a href="{{ link.url }}">{{ link.name }}</a></p>
+			<p>Profile: <a href="{{ link.profile }}">{{ link.user }}</a></p>
+		</li>
+		{% endfor %}
+		<li>
+			<p><a href="https://discord.com">Discord</a></p>
+			<p>User: DaringCuteSeal#6247</p>
+			<p><a href="https://discord.gg/3bYmuKfHP4">Server</a> (dead but might be revived if there are some people joining :/)</p>
+	</ul>
+</div>
+
+<div class="social">
+	<p>Some more that aren't really socials:</p>
+	<ul>
+		{% for link in page.not-socials %}
+			<li>
+				<p><a href="{{ link.url }}">{{ link.name }}</a></p>
+				<p>Profile: <a href="{{ link.profile }}">{{ link.user }}</a></p>
+			</li>
+		{% endfor %}
+	</ul>
+</div>
+
+<p>And lastly, you can mail me at <a href="mailto:daringcuteseal@gmail.com">daringcuteseal@gmail.com</a>.</p>
