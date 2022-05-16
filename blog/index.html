@@ -1,0 +1,30 @@
+---
+title: Blogs index
+layout: default
+
+css:
+- navbar
+
+navbar:
+- name: Home
+  url: /
+
+---
+
+{% include navbar.html %}
+
+<p>I (will) do blogs! I post whenever I want about anything, mainly about 3D graphics and programming stuff. You can also <a href="/blog/all">see all my posts.</a></p>
+<h1>Recent Posts</h1>
+<ul>
+	{% assign i = 0 %}
+	{% for post in site.posts %}
+	{% if i > 5 %}
+	  {% break %}
+	{% endif %}
+	<li>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		{{ post.excerpt }}
+	</li>
+	{% increment i %}
+	{% endfor %}
+</ul>
