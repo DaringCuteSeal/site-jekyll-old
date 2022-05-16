@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "DD: the Disk Destroyer, and How it Actually Didn't"
+title: "DD: The Disk Destroyer, and How it Actually Didn't"
 ---
 
 I've heard a lot of stories about people using `dd` and wiped their data. Well, that has already happened for me. I guess I can call myself an 'experienced CLI user' now. I'll tell you about it.
