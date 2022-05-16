@@ -28,3 +28,7 @@
 body {
 	font-family: Ubuntu;
 }
+
+img {
+	max-width: 100%;
+}
