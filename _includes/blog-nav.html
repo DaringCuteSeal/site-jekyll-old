@@ -1,0 +1,11 @@
+{% if page.previous or page.next %}
+<div class="nav">
+	{% if page.previous %}
+	<span><a href="{{ page.previous }}">&lt; Previous</a></span>
+	{% endif %}
+
+	{% if page.next %}
+	<span><a href="{{ page.next }}">Next &gt;</a></span>
+	{% endif %}
+</div>
+{% endif %}
