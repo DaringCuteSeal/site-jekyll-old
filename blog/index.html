@@ -19,7 +19,7 @@ navbar:
 	{% for i in (0..4) %}
 	{% if site.posts[i] %}
 		<li>
-			<a href="{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
+			{{ site.posts[i].date | date_to_string }} - <a href="{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
 			{{ site.posts[i].excerpt }}
 		</li>
 	{% endif %}
