@@ -1,0 +1,25 @@
+---
+layout: default
+
+css:
+- navbar
+
+navbar:
+- name: Home
+  url: /
+- name: Recent Posts
+  url: /blog
+
+---
+
+{% include navbar.html %}
+
+<p>All blog posts:</p>
+
+<ul>
+	{% for post in site.posts %}
+	<li>{{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+	{{ post.excerpt }}
+	{% endfor %}
+</ul>
+
