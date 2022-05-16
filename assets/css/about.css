@@ -1,7 +1,22 @@
+@media (max-width: 715px) {
+	.me {
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 716px) {
+	.me {
+		flex-direction: row;
+	}
+		img {
+			height: 300px;
+			width: auto;
+		}
+}
+
 .me {
 	justify-content: center;
 	display: flex;
-	flex-direction: row;
 }
 
 .me-img {
