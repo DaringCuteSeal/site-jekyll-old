@@ -12,4 +12,4 @@ GRUB disappeared after some reboots..
 
 At June 28 (2021), I tried the LTS kernel. I didn't remember why, probably some hardware issues. Anyway, I thought it would be better but it's pretty much the same. I messed around for a while, and then.. after a couple reboots, my GRUB suddenly disappears. I was like, "What the heck? I didn't do anything!" Not a big deal, since I could fix that in 2 mins but I really wonder why. There's no way my SSD is dying, since it was just 3 months old back then. So yeah, I reinstalled GRUB and it was fine. Uncool.
 
-You'd think that's the end? Well no—at January 13th (2022, and also my Linux anniversary), it happened again!
+You think that that's the end? Well no—at January 13th (2022, and also my Linux anniversary), it happened again!
