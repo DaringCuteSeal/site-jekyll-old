@@ -3,5 +3,5 @@ img {
 }
 
 pre {
-	white-space: pre-wrap;
+	overflow: auto;
 }
