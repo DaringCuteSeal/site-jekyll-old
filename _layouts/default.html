@@ -14,6 +14,16 @@
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		{% if page.desc %}
+		<meta name="description" content="{{ page.desc }}">
+		{% elsif page.title %}
+		<meta name="description" content="{{ page.title}} - DaringCuteSeal's site">
+		{% elsif layout.desc %}
+		<meta name="description" content="{{ layout.desc}} - DaringCuteSeal's site">
+		{% else %}
+		<meta name="description" content="DaringCuteSeal's site">
+		{% endif %}
 	</head>
 	<body>
 		{{ content }}
