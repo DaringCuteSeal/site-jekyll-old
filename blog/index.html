@@ -1,6 +1,7 @@
 ---
 title: Recent Blog Posts
 layout: default
+desc: Recent Blog posts by DaringCuteSeal
 
 css:
 - navbar
@@ -20,7 +21,13 @@ navbar:
 	{% if site.posts[i] %}
 		<li>
 			{{ site.posts[i].date | date_to_string }} - <a href="{{ site.posts[i].url }}">{{ site.posts[i].title }}</a>
-			{{ site.posts[i].excerpt }}
+			{% if site.posts[i].postdesc %}
+			<p>{{ site.posts[i].postdesc }}</p>
+			{% else %}
+			<p>{{ site.posts[i].excerpt }}</p>
+			{% endif %}
+
+			
 		</li>
 	{% endif %}
 	{% endfor %}
