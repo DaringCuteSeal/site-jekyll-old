@@ -1,9 +1,8 @@
 ---
 layout: blog
 title: Finally, IT'S OVER!
+postdesc: YES! IT'S OVER! FINALLY!
 ---
-
-YES! IT'S OVER! FINALLY!
 
 The test has been done since two days ago, but there was a math re-test at my school yesterday because, apparently, our score sucks (probably). Ahh.. I can finally have enough sleep now. I'm going to have a nice long holiday.
 
