@@ -17,14 +17,14 @@
 
 		{% if page.desc %}
 		<meta name="description" content="{{ page.desc }}">
-		{% elsif page.title %}
-		<meta name="description" content="{{ page.title }} - DaringCuteSeal's site">
-		{% elsif layout.desc %}
-		<meta name="description" content="{{ layout.desc }} - DaringCuteSeal's site">
 		{% elsif page.postdesc %}
 		<meta name="description" content="{{ page.postdesc }}">
 		{% elsif page.excerpt and page.layout == "post" %}
 		<meta name="description" content="{{ page.excerpt }}">
+		{% elsif page.title %}
+		<meta name="description" content="{{ page.title }} - DaringCuteSeal's site">
+		{% elsif layout.desc %}
+		<meta name="description" content="{{ layout.desc }} - DaringCuteSeal's site">
 		{% else %}
 		<meta name="description" content="DaringCuteSeal's site">
 		{% endif %}
