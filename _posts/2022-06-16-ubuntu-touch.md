@@ -17,3 +17,5 @@ Here are some nice images of mine:
 ![UBports 1](/blog/image/ubports-1.png)
 ![UBports 2](/blog/image/ubports-2.png)
 ![UBports 3](/blog/image/ubports-3.png)
+
+EDIT: I found a way to get a global dark theme.. (I used UT Tweak Tool)
