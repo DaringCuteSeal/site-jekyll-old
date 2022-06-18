@@ -13,6 +13,9 @@
 	a {
 		color: #8BBFDF;
 	}
+	hr { 
+		color: #C4DCE9;
+	}
 }
 
 @media (prefers-color-scheme: light) {
@@ -22,6 +25,7 @@
 	a {
 		color: #3B84B1;
 	}
+	
 }
 
 
