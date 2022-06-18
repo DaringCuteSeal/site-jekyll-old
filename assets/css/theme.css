@@ -35,3 +35,7 @@ body {
 pre {
 	overflow: auto;
 }
+
+img {
+	max-width: 100%;
+}
