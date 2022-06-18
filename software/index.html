@@ -1,6 +1,6 @@
 ---
 title: Software
-layout: placeholder
+layout: default
 
 css:
 - navbar
@@ -9,4 +9,24 @@ navbar:
 - name: Home
   url: /
 
+softwares:
+- name: Whow
+  desc: A simple and fancy CLI task manager
+- name: AskMe
+  desc: A collection of simple shell scripts to help you study, at the comfort of your terminal
+
 ---
+
+I can't make super great softwares yet, but I have some that might be interesting. I personally use all of these, so I would continue to develop them.
+
+<ul>
+	{% for software in page.softwares %}
+	
+	<li>
+	<a href="/software/{{ software.name | slugify }}">{{ software.name }}</a>
+	<p>{{ software.desc }}</p>
+	</li>
+
+	{% endfor %}
+</ul>
+
