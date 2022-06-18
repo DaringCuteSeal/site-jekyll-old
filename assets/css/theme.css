@@ -28,7 +28,10 @@
 	
 }
 
-
 body {
 	font-family: Ubuntu;
+}
+
+pre {
+	overflow: auto;
 }
