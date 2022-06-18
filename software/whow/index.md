@@ -78,7 +78,7 @@ And the rendered view (`whow show events`):
 
 # Inspiration and History
 
-On my computer extracurricular, I had to use Trello—which kinda inspired me to write Whow. I began writing Whow since March 18, but abandoned it for a while, before continuing its development back somewhere around May. This is basically just me meming "reject bloated web apps, return to DIY shell scripts" though. But yeah, I actually use it (almost) every day.
+On my computer extracurricular, I had to use [Trello](https://trello.com/)—which kinda inspired me to write Whow. I began writing Whow since March 18, but abandoned it for a while, before continuing its development back somewhere around May. This is basically just me meming "reject bloated web apps, return to DIY shell scripts" though. But yeah, I actually use it (almost) every day.
 
 ----
 
