@@ -9,12 +9,14 @@ css:
 navbar:
 - name: Home
   url: /
-
+- name: All Posts
+  url: /blog/all
 ---
 
 {% include navbar.html %}
 
-<p>I (will) do blogs! I post whenever I want about anything, mainly about 3D graphics and programming stuff. You can also <a href="/blog/all">see all my posts.</a></p>
+<p>I do blogs! I post whenever I want about anything I found interesting to share.</p>
+
 <h1>Recent Posts</h1>
 <ul>
 	{% for i in (0..4) %}
