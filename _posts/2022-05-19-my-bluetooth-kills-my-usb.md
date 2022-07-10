@@ -33,4 +33,6 @@ Bluetooth: hci0: Failed to send wmt func ctrl (-110)
 
 My networking card works fine, but my Bluetooth sometimes disappears. I don't have much clues about these but they're not a big problem, plus, I don't use Bluetooth as much (cables FTW!). 
 
-However.. I soon discovered that my Bluetooth causes one of my USB port (the first one, at the right side to be exact) to not work. Any data transfer does not work (for example, on a USB drive or a phone), and only stuff like reverse charging works. Not sure why, I haven't dived into this deeply yet. Solution? Well blacklist the module for it! (it's `btusb`, and if you don't know how, read the [ArchWiki](https://wiki.archlinux.org/title/Kernel_module#Blacklisting)!). Urgh, I hate anything wireless on bleeding edge hardware.
+However.. I soon discovered that my Bluetooth causes one of my USB port (the first one, at the right side to be exact) to not work. Any data transfer does not work (for example, on a USB drive or a phone), and only stuff like reverse charging works. Not sure why, I haven't dived into this deeply yet. Solution? Well, ~~blacklist the module for it! (it's `btusb`, and if you don't know how, read the [ArchWiki](https://wiki.archlinux.org/title/Kernel_module#Blacklisting)!).~~
+
+An edit later, on July 10: Adding `enable_autosuspend=0` to the option for the `btusb` module seems to have fix that, or maybe it fixed itself.
