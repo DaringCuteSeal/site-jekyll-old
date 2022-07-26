@@ -114,7 +114,7 @@ The first concept of AskMe came from a little handcrafted shell script I wrote b
 
 A couple days before my mid-term test, I decided to write what now known as "AskMe Multiple Choices", which is a nicer more sophisticated shell script that supports multiple choices answers. After my mid-term test was done, I really liked my "AskMe Multiple Choices" and decided to write what now known as "AskMe Memorize", which was a better version of that first 64-lined script. Then, when I had to memorize some Latin/Greek words and its meanings, I found it too hard and unnecessary to memorize the entire thing, so I wrote Askme-dmenu that shows all the available choices.
 
-Maybe I'm going to write more AskMe scripts soon.
+I might write more AskMe scripts soon.
 
 ---
 
