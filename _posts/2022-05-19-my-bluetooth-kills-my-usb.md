@@ -37,4 +37,4 @@ However.. I soon discovered that my Bluetooth causes one of my USB port (the fir
 
 An edit later, on July 10: Adding `enable_autosuspend=0` to the option for the `btusb` module seems to have fix that, or maybe it fixed itself.
 
-An edit way later, on July 29: Nope, that didn't fix anything, but it does happen less often now.
+An edit way later, on July 29: Nope, that didn't fix anything, but it does happen less often now. A temporary fix is to reload the `xhci_pci` module.
