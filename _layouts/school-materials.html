@@ -1,0 +1,21 @@
+---
+layout: default
+
+css:
+- navbar
+
+navbar:
+- name: Halaman Rumah
+  url: /
+
+---
+
+{% include navbar-l.html %}
+
+<p>Semua berkas:</p>
+
+<ul>
+{% for file in page.files %}
+	<li><a href={{ file.filename }}>{{ file.name }}</a></li>
+{% endfor %}
+</ul>
