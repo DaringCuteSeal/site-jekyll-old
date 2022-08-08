@@ -1,3 +1,31 @@
 ---
-layout: placeholder
+layout: default
+
+css:
+- navbar
+
+navbar:
+- name: Home
+  url: /
+
+randoms:
+- name: School Materials (in Indonesian ;)
+  desc: My school materials. I'm currently in eighth grade :\
+  page: school-materials
 ---
+
+{% include navbar.html %}
+
+Miscellaneous!
+
+<ul>
+
+{% for item in page.randoms %}
+
+	<li><a href="/misc/{{ item.page }}">{{ item.name }}</a></li>
+	<p>{{ item.desc }}</p>
+
+{% endfor %}
+
+</ul>
+
