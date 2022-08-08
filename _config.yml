@@ -1,3 +1,7 @@
+title: DaringCuteSeal 🦭
+url: daringcuteseal.github.io
+description: DaringCuteSeal's personal site
+
 collections:
   posts:
     output: true
