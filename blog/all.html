@@ -16,7 +16,9 @@ navbar:
 
 {% include navbar.html %}
 
-<p>All blog posts:</p>
+<h1>All Blog Posts</h1>
+
+{% include rss.html %}
 
 <ul>
 	{% for post in site.posts %}
