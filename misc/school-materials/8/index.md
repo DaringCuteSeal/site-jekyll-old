@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Balik](/misc/school/materials)
+[Balik](/misc/school-materials)
 
 Semester:
 - [Semester 1](sem1)
