@@ -35,7 +35,7 @@ digunakan, baik itu hardware maupun software. Diantaranya:
 	-  HTTP (*Hypertext Transfer Protocol*)
 	-  FTP (*File Transfer Protocol*)
 	-  POP (*Post Office Protocol*)
-	-  SMTP (*Simple Mail Transfer Protocol*), dan lainnya).
+	-  SMTP (*Simple Mail Transfer Protocol*)
 
 Contoh jaringan yang termasuk kedalam intranet adalah LAN (*Local Area Network*).
 
@@ -138,6 +138,7 @@ Sebelum dienkripsi, **data-data yang masih mentah** disebut **plaintext**. Data 
 Enkripsi dengan kunci simetris menggunakan **kunci privat yang sama untuk melakukan enkripsi dan dekripsi** terhadap data. Saat akan melakukan dekripsi, pengirim akan terlebih dahulu membagikan kunci privatnya ke orang yang akan mendekripsikan data.
 
 Contoh kasus:
+
 Sani dan Siri keduanya memiliki kunci untuk membuka sebuah kotak. Dalam scenario ini kunci yang mereka miliki melakukan hal yang sama. Keduanya dapat menambah atau membuang sesuatu dari kotak. Jadi, Sani dapat mengenkripsi pesan serta mendekripsi dengan kuncinya. Siri juga dapat melakukan hal yang sama dengan miliknya.
 
 ## Enkripsi Kunci Asimetris
@@ -146,4 +147,5 @@ Algoritma ini menggunakan **kunci enkripsi berbeda untuk enkripsi dan dekripsi d
 ![Enkripsi asimetris](images/ea7f3a97aa7fd9796fc7f2e293ad1fbe.png)
 
 Contoh kasus:
+
 Sani dan Siri memiliki kunci untuk membuka sebuah kotak. Sani memiliki kunci publik dan Siri memiliki kunci privat yang cocok. Sani bisa menggunakan kuncinya untuk membuka kotak dan meletakkan segala sesuatu ke dalamnya. Tetapi, Sani tidak bisa melihat barang-barang yang sudah ada didalam kotak tersebut dan tidak bisa mengambil apa-apa. Disamping itu, Siri bisa membuka kotak dan melihat semua barang di dalamnya ataupun membuangnya. Namun, Siri tidak bisa menambahkan sesuatu ke kotak tanpa memiliki kunci public tambahan. Jadi, Sani dapat mengenkripsi plain text dengan kunci publik dan mengirimkannya pada Siri. Namun, hanya Siri yang dapat mendekripsi *chiphertext* dari Sani kembali ke *plaintext*.
