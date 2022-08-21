@@ -8,18 +8,8 @@ desc: Page not found
 <p>The page you're looking for does not exist.</p>
 
 
-<div id="links">
+<div id="back">
 	<p><a href="/">Go to homepage</a></p>
 </div>
 
-<script>
-	const anchor_p = document.createElement("p");
-	const anchor = document.createElement("a");
-	anchor_p.appendChild(anchor);
-	anchor.href = document.referrer;
-	const node = document.createTextNode("Go back");
-	anchor.appendChild(node);
-	const element = document.getElementById("links");
-	element.appendChild(anchor);
-
-</script>
+{% include back.html %}

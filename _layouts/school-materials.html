@@ -4,13 +4,10 @@ layout: default
 css:
 - navbar
 
-navbar:
-- name: Halaman Rumah
-  url: /
-
 ---
 
-{% include navbar-l.html %}
+<div id="back">
+</div>
 
 <p>Semua berkas:</p>
 
@@ -19,3 +16,5 @@ navbar:
 	<li><a href={{ file.filename }}>{{ file.name }}</a></li>
 {% endfor %}
 </ul>
+
+{% include back.html %}
