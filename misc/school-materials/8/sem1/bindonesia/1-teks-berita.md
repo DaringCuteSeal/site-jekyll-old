@@ -108,10 +108,10 @@ Ciri-ciri kalimat efektif:
 	Contoh:
 	1. <orange>Harap mengisi daftar kehadiran yang berada di meja.</orange>
 
-		<green>Siswa diharapkan mengisi daftar kehadiran yang berada di meja.</green> (tidak bersubjek)
+		<p><green>Siswa diharapkan mengisi daftar kehadiran yang berada di meja.</green> (tidak bersubjek)</p>
 	2. <orange>Hari ini dia ke sekolah.</orange>
 
-		<green>Hari ini dia pergi ke sekolah.</green> (tidak berpredikat)
+		<p><green>Hari ini dia pergi ke sekolah.</green> (tidak berpredikat)</p>
 
 2. Hemat kata
 	Hemat kata dapat dilakukan dengan:
@@ -121,10 +121,10 @@ Ciri-ciri kalimat efektif:
 	Contoh:
 	1. <orange>Beberapa orang-orang yang tidak mendapatkan tiket memaksa masuk ke dalam stadion untuk menyaksikan konser BTS.</orange>
 
-		<green>Orang-orang yang tidak mendapatkan tiket memaksa masuk ke dalam stadion untuk menyaksikan konser BTS.</green>
+		<p><green>Orang-orang yang tidak mendapatkan tiket memaksa masuk ke dalam stadion untuk menyaksikan konser BTS.</green></p>
 	2. <orange>Setelah mendengar penjelasan Saudara, lalu kami menyimpulkan bahwa keterlambatan pengiriman barang tidak disebabkan oleh petugas kami.</orange>
 
-		<green>Setelah mendengar penjelasan Saudara, kami menyimpulkan bahwa keterlambatan pengiriman barang tidak disebabkan oleh petugas kami.</green>
+		<p><green>Setelah mendengar penjelasan Saudara, kami menyimpulkan bahwa keterlambatan pengiriman barang tidak disebabkan oleh petugas kami.</green></p>
 
 	
 3. Kesejajaran bentuk kata
@@ -133,7 +133,7 @@ Ciri-ciri kalimat efektif:
 	Contoh:
 	<orange>Kakak menolong anak itu dengan dipapahnya ke pinggir jalan.</orange>
 
-	<green>Kakak menolong anak itu dengan memapahnya ke pinggir jalan.</green>
+	<<p>green>Kakak menolong anak itu dengan memapahnya ke pinggir jalan.</green></p>
 
 4. Menggunakan pilihan kata yang tepat
 	
@@ -143,7 +143,7 @@ Ciri-ciri kalimat efektif:
 	Contoh:
 	<orange>Mayat lelaki tua yang ditemukan itu sebelumnya sering mondar-mandir di daerah tersebut.</orange>
 
-	<green>Sebelum meninggal, lelaki tua yang mayatnya ditemukan itu sering mondar-mandir di daerah tersebut.</green>
+	<p><green>Sebelum meninggal, lelaki tua yang mayatnya ditemukan itu sering mondar-mandir di daerah tersebut.</green></p>
 
 	Cara membuat kalimat yang logis:
 	1. Hindari kalimat yang memiliki makna ganda (ambigu).
@@ -157,7 +157,7 @@ Ciri-ciri kalimat efektif:
 	Contoh:
 	1. <orange>Surat itu saya sudah baca.</orange>
 
-		<green>Surat itu sudah saya baca.</green>
+		<p><green>Surat itu sudah saya baca.</green></p>
 
 # Kalimat Sumbang
 Kalimat sumbang adalah kalimat yang berdiri di paragraf tanpa keterkaitan dengan kalimat utama.
