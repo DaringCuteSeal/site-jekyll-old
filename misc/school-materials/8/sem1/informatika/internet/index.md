@@ -1,3 +1,8 @@
+---
+layout: default
+desc: Internet
+
+---
 # Jaringan Komputer
 
 ## Definisi
