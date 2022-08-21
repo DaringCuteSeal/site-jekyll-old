@@ -69,47 +69,57 @@ Oleh sebab itu ARPANET dipecah menjadi dua, yaitu "MILNET" untuk keperluan milit
 Ada banyak jenis perangkat jaringan. Meskipun memiliki fungsi dan peran yang berbeda, perangkat-perangkat jaringan ini saling mendukung kinerja satu sama lain.
 
 1. Router
+
 	![6babf8511f21a5fb2c90ab1296810335.png](images/6babf8511f21a5fb2c90ab1296810335.png)
 	
 	Router adalah perangkat jaringan yang berfungsi untuk **menghubungkan dua atau lebih jaringan**. Router menghubungkan jaringan dengan topologi bintang, bus, dan cincin. Berkat dua router jaringan dapat bertukar informasi dan data. Router digunakan dalam protokol jaringan router TCP/IP. Selain itu, router adalah server akses, perangkat yang dapat membuat koneksi yang menghubungkan LAN ke layanan telekomunikasi. Router ini disebut Router DSL (Digital Subscriber Line).
 
 2. Wireless [LAN] Card
+
 	![9ff545c3dcf6fcf0af1ef6323fa4df65.png](images/9ff545c3dcf6fcf0af1ef6323fa4df65.png)
 	Perangkat ini dapat **menghubungkan komputer dengan komputer lain menggunakan Wi-Fi tanpa menggunakan kabel**. Saat ini, ada banyak laptop yang memiliki kartu nirkabel di dalamnya, sehingga tidak perlu membeli kartu nirkabel secara terpisah. Tidak seperti laptop, pengguna komputer harus membeli kartu nirkabel secara terpisah untuk terhubung ke Wi-Fi.
 
 3. LAN card
+
 	![02882ca5fb8da6d7f198e318b047fb5d.png](images/02882ca5fb8da6d7f198e318b047fb5d.png)
 	LAN card dapat **menghubungkan satu komputer ke komputer lain dengan menggunakan menggunakan kabel**. LAN card akan mengubah aliran data dari bentuk paralel ke bentuk serial, maka data akan dikirim melalui kabel UTP.
 
 4. Bridge
+
 	![da2d05d31157077089219f1e2902ae2c.png](images/da2d05d31157077089219f1e2902ae2c.png)
 	
 	Perangkat ini dapat **memperluas jaringan** sehingga dapat digunakan oleh perangkat lain dalam jangkauan luas. Bridge berfungsi untuk meneruskan data, membagi jaringan menjadi beberapa jaringan. Ini membuat jangkauan jaringan menjadi luas. Bridge memiliki tabel Bridge internal yang berfungsi untuk menentukan segmen mana yang harus disaring.
 	
 5. Hub
+
 	![d770cc23ca6efee37ac693d2b716aa81.png](images/d770cc23ca6efee37ac693d2b716aa81.png)
 	Fungsi HUB adalah untuk **membagi server ke jaringan lain**. HUB akan menyalin data dari sumber yang terhubung ke port di HUB. Jika di dalam gedung terdapat 10 komputer yang terhubung ke HUB dan memiliki satu komputer sumber data, HUB akan membagikan data tersebut dengan perangkat yang terhubung. Namun, jika HUB mengalami gangguan transmisi ke jaringan lain, itu akan terhambat.
 
 6. Switch
+
 	![96af11b2d3a1429ebc1795e758c578ba.png](images/96af11b2d3a1429ebc1795e758c578ba.png)
 
 	Cara kerja perangkat ini hampir mirip dengan HUB, tetapi switch lebih pintar dalam membagi sinyal koneksi. Menggunakan switch, area jaringan dapat menjadi lebih baik dan lebih cepat untuk mengirim data. Perangkat ini juga dapat **mengatasi tabrakan data**.
 	
 7. Access Point
+
 	![5ddf85bcfb2a2a737f8ac9987af5066d.png](images/5ddf85bcfb2a2a737f8ac9987af5066d.png)
 	Fungsi perangkat ini adalah untuk **memancarkan sinyal dari router**. Sinyal digunakan untuk membuat jaringan WLAN. Access Point juga dapat membuat kita terhubung ke jaringan LAN tanpa meng-gunakan kabel. Kemudian dari titik akses tersebut dapat dikatakan dapat meng-hubungkan dua jaringan yang berbeda, yaitu jaringan nirkabel dan jaringan LAN.
 
 8. Repeater
+
 	![5fff1b0afaec56b199f6e1c305e79c95.png](images/5fff1b0afaec56b199f6e1c305e79c95.png)
 
 	Repeater adalah perangkat jaringan yang dapat memperkuat sinyal dan mem-perluas jangkauan sinyal Wi-Fi. Repeater membuat perangkat dapat mengakses wifi dengan mudah. Re-peater tidak perlu menggunakan kabel untuk memini-malkan penggunaan kabel.
 
 9. NIC (*Network Interface Card/Controller*)
+
 	![d37827c0469ee3f3af248ccfe4bf0e1b.png](images/d37827c0469ee3f3af248ccfe4bf0e1b.png)
 
 	Network Interface Card (NIC) adalah kartu yang dapat menghubungkan komputer dengan jaringan LAN. Perangkat dapat terhubung ke jaringan menggunakan kabel.
 
 10. Konektor
+
 	![5b25f4f6c15a398a346ccf4ff252a738.png](images/5b25f4f6c15a398a346ccf4ff252a738.png)
 
 	Konektor berfungsi untuk **menghubungkan kabel dengan adaptor jaringan**. Konektor adalah alat vital untuk perangkat komputer. Jika konektor tidak terpasang, komputer tidak dapat berjalan secara optimal.
