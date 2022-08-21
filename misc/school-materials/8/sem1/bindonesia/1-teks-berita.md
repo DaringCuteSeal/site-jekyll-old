@@ -10,6 +10,7 @@ css:
 Teks berita terdiri atas:
 
 1. **Judul berita**
+
 	Judul berita adalah **kata kunci yang mewakili isi berita**. Judul harus dibuat semenarik mungkin agar pembaca tertarik untuk membacanya.
 	
 	Contoh:
@@ -26,6 +27,7 @@ Teks berita terdiri atas:
 			- Kata seru (*hei, ha*)
 	
 2. **Teras/kepala berita**
+
 	Teras berita adalah bagian inti dari keseluruhan isi berita. Di dalam teras berita, terdapat jawaban dari pertanyaan dengan ADIKSIMBA.
 	
 	Contoh:
@@ -42,6 +44,7 @@ Teks berita terdiri atas:
 	> Pertama, olahraga sebaiknya dilakukan tanpa berpindah tempat atau olahraga dilakukan tanpa berpindah tempat atau olahraga dilakukan dengan posisi sejajar berjarak minimal 2 meter dari orang lain. "Kedua, untuk olahraga kaki, usahakan jaraknya 5 meter dari orang di depannya," kata dia. Berikutnya, bagi yang hendak berlari, sebaiknya menjaga jarak mencapai 10 meter dari orang di depannya. Jaga jarak, imbuh dia, juga berlaku bagi mereka yang ingin bersepeda, minimal 20 meter dari orang di depannya. "Kelima, setelah berolahraga, ingat, untuk selalu segera cuci tangan, mandi, ganti pakaian, dan bersihkan alat olahraga dan barang bawaan kita seperti handphone, kacamata, tas dan barang bawaan lainnya dengan cairan disinfektan," kata Reisa.
 	
 4. **Ekor berita**
+
 	Ekor berita merupakan informasi tambahan yang bersifat tentatif (opsional). Bagian ini dapat berupa kesimpulan suatu berita, harapan, dan tujuan penulisan teks berita.
 
 	Contoh:
@@ -50,19 +53,25 @@ Teks berita terdiri atas:
 
 # Jenis Berita
 1. Berita langsung (*straight news*)
+
 	Berita langsung adalah berita yang **disajikan apa adanya** sehingga terkesan lebih singkat dan sangat lugas.
 2. Berita mendalam (*depth news*)
+
 	Berita mendalam adalah berita yang dikembangkan dengan melakukan **pendalaman suatu permukaan**.
 3. Berita penyelidikan (*investigative news*)
+
 	Berita penyelidikan adalah berita yang berkembang **berdasar pada penelitian** dari berbagai sumber.
 4. Berita interpretasi (*interpretative news*)
+
 	Berita interpretasi adalah berita yang **dikembangkan dengan berdasar pada pendapat** ataupun **penelitian oleh reporter**.
 5. Berita pendapat (*opinion news*)
+
 	Berita pendapat adalah berita yang **berisi opini/pendapat seseorang**.
 	
 # Kebahasaan Teks Berita
 
 1. Penggunaan verba transitif dan pewarta
+
 	- Verba transitif adalah verba yang memerlukan dua nomina, satu sebagai subjek dan satunya lagi sebagai objek.
 	
 		Contoh:
@@ -76,12 +85,15 @@ Teks berita terdiri atas:
 		2. Ariska menjelaskan bahwa risiko penularan virus corona lewat air ketika kita berenang sangatlah rendah, yang perlu dikhawatirkan adalah risiko penularan antar manusia yang mengunjungi tempat tersebut.
 
 2. Penggunaan bahasa yang baku
+
 	Penggunaan bahasa yang baku akan lebih dipahami oleh masyarakat umum. <!-- boong -->
 
 3. Penggunaan kalimat langsung
+
 	Penggunaan kalimat langsung ini terkait dengan pernyataan-pernyataan oleh narasumber berita.
 
 4. Penggunaan konjungsi
+
 	Penggunaan konjungsi pada teks berita dapat memperjelas maksud berita.
 
 
