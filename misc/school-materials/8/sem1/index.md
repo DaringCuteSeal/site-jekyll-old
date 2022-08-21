@@ -7,3 +7,5 @@ layout: default
 Mata pelajaran:
 - [Biologi](biologi)
 - [Inggris](inggris)
+- [Informatika](informatika)
+- [B. Indonesia](bindonesia)
