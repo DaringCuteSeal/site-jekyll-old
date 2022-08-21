@@ -1,0 +1,13 @@
+<!-- create a div with "back" as the id first -->
+
+<script>
+	const anchor_p = document.createElement("p");
+	const anchor = document.createElement("a");
+	anchor_p.appendChild(anchor);
+	anchor.href = document.referrer;
+	const node = document.createTextNode("Go back");
+	anchor.appendChild(node);
+	const element = document.getElementById("back");
+	element.appendChild(anchor);
+
+</script>
