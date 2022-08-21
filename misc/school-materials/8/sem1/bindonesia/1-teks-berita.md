@@ -133,7 +133,7 @@ Ciri-ciri kalimat efektif:
 	Contoh:
 	<orange>Kakak menolong anak itu dengan dipapahnya ke pinggir jalan.</orange>
 
-	<<p>green>Kakak menolong anak itu dengan memapahnya ke pinggir jalan.</green></p>
+	<p>green>Kakak menolong anak itu dengan memapahnya ke pinggir jalan.</green></p>
 
 4. Menggunakan pilihan kata yang tepat
 	
