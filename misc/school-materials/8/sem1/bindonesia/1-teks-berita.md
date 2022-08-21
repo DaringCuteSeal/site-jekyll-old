@@ -1,8 +1,10 @@
 ---
 layout: default
 desc: Teks Berita
----
 
+css:
+- colors
+---
 
 # Struktur Teks Berita
 Teks berita terdiri atas:
