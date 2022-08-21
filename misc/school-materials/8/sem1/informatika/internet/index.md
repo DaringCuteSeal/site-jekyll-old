@@ -10,7 +10,15 @@ Jaringan komputer adalah sebuah **sistem** yang terdiri dari **dua atau lebih ko
 
 Jaringan komputer terdiri atas:
 1. Personal area network (PAN)
+	- Kontrol dilakukan dengan authoritas pribadi.
+	- Data yang ditransmisikan bersifat khas dan personal karena digunakan hanya untuk kepentingan pribadi.
+
 2. Local area network (LAN)
+	- Mempunyai kecepatan transfer data yang lebih tinggi.
+	- Mencakup wilayah geografis yang lebih sempit.
+	- Tidak perlu menyewa jalur telekomunikasi dari operator telekomunikasi.
+	- Salah satu komputer di antara jaringan komputer digunakan sebagai server.
+
 3. Metropolitan area network (MAN)
 4. Wide area network (WAN)
 
@@ -31,7 +39,10 @@ digunakan, baik itu hardware maupun software. Diantaranya:
 - Server
 - Hub
 - Modem
-- Protokol internet, contohnya:
+- Protokol internet
+	Protokol internet adalah **tata cara atau peraturan yang disepakati secara internasional agar sebuah komputer bisa berkomunikasi dengan komputer lainnya**. Protokol internet berfungsi menghubungkan pengirim dan penerima untuk bertukar informasi dan berjalan dengan baik.
+
+	Contoh protokol internet:
 	-  HTTP (*Hypertext Transfer Protocol*)
 	-  FTP (*File Transfer Protocol*)
 	-  POP (*Post Office Protocol*)
@@ -60,7 +71,7 @@ Internet yang pertama kali ada merupakan jaringan komputer yang dibentuk oleh De
 
 Tujuan awal dibangunnya proyek itu adalah untuk **keperluan militer**. Pada saat itu Departemen Pertahanan Amerika Serikat (US Department of Defense) membuat sistem jaringan komputer yang tersebar dengan menghubungkan komputer di daerah-daerah vital untuk mengatasi masalah bila terjadi serangan nuklir dan untuk menghindari terjadinya informasi terpusat, yang apabila terjadi perang dapat mudah dihancurkan. 
 
-Pada mulanya ARPANET hanya menghubungkan 4 situs saja yaitu **Stanford Research Institute**, **University of California**, **Santa Barbara**, **University of Utah**, di mana mereka membentuk satu jaringan terpadu pada tahun 1969, dan secara umum ARPANET diperkenalkan pada bulan Oktober 1972. Tidak lama kemudian proyek ini berkembang pesat di seluruh daerah, dan semua universitas di negara tersebut ingin bergabung, sehingga membuat ARPANET kesulitan untuk mengaturnya.
+Pada mulanya ARPANET hanya menghubungkan 4 situs saja yaitu **Stanford Research Institute**, **University of California**, **Santa Barbara**, dan **University of Utah**, di mana mereka membentuk satu jaringan terpadu pada tahun 1969, dan secara umum ARPANET diperkenalkan pada bulan Oktober 1972. Tidak lama kemudian proyek ini berkembang pesat di seluruh daerah, dan semua universitas di negara tersebut ingin bergabung, sehingga membuat ARPANET kesulitan untuk mengaturnya.
 
 Oleh sebab itu ARPANET dipecah menjadi dua, yaitu "MILNET" untuk keperluan militer dan ARPANET baru yang lebih kecil untuk keperluan non-militer seperti universitas-universitas. Gabungan kedua jaringan akhirnya dikenal dengan nama DARPA Internet, yang kemudian disederhanakan menjadi Internet.
 
@@ -82,7 +93,7 @@ Ada banyak jenis perangkat jaringan. Meskipun memiliki fungsi dan peran yang ber
 3. LAN card
 
 	![02882ca5fb8da6d7f198e318b047fb5d.png](images/02882ca5fb8da6d7f198e318b047fb5d.png)
-	LAN card dapat **menghubungkan satu komputer ke komputer lain dengan menggunakan menggunakan kabel**. LAN card akan mengubah aliran data dari bentuk paralel ke bentuk serial, maka data akan dikirim melalui kabel UTP.
+	LAN card dapat **menghubungkan satu komputer ke komputer lain dengan menggunakan menggunakan kabel**. LAN card akan mengubah aliran data dari bentuk paralel ke bentuk serial, dan data akan dikirim melalui kabel UTP.
 
 4. Bridge
 
@@ -93,13 +104,13 @@ Ada banyak jenis perangkat jaringan. Meskipun memiliki fungsi dan peran yang ber
 5. Hub
 
 	![d770cc23ca6efee37ac693d2b716aa81.png](images/d770cc23ca6efee37ac693d2b716aa81.png)
-	Fungsi HUB adalah untuk **membagi server ke jaringan lain**. HUB akan menyalin data dari sumber yang terhubung ke port di HUB. Jika di dalam gedung terdapat 10 komputer yang terhubung ke HUB dan memiliki satu komputer sumber data, HUB akan membagikan data tersebut dengan perangkat yang terhubung. Namun, jika HUB mengalami gangguan transmisi ke jaringan lain, itu akan terhambat.
+	Fungsi hub adalah untuk **membagi server ke jaringan lain**. hub akan menyalin data dari sumber yang terhubung ke port di hub. Jika di dalam gedung terdapat 10 komputer yang terhubung ke hub dan memiliki satu komputer sumber data, hub akan membagikan data tersebut dengan perangkat yang terhubung. Namun, jika hub mengalami gangguan transmisi ke jaringan lain, itu akan terhambat.
 
 6. Switch
 
 	![96af11b2d3a1429ebc1795e758c578ba.png](images/96af11b2d3a1429ebc1795e758c578ba.png)
 
-	Cara kerja perangkat ini hampir mirip dengan HUB, tetapi switch lebih pintar dalam membagi sinyal koneksi. Menggunakan switch, area jaringan dapat menjadi lebih baik dan lebih cepat untuk mengirim data. Perangkat ini juga dapat **mengatasi tabrakan data**.
+	Cara kerja perangkat ini hampir mirip dengan hub, tetapi switch lebih pintar dalam membagi sinyal koneksi. Menggunakan switch, area jaringan dapat menjadi lebih baik dan lebih cepat untuk mengirim data. Perangkat ini juga dapat **mengatasi tabrakan data**.
 	
 7. Access Point
 
