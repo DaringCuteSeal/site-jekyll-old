@@ -81,7 +81,7 @@ Bootstrapped on September 7th, 2021. My second Artix Linux. Installed on my WD d
 ![fern](img/linuxes/fern.png)
 
 ## Matt
-Unpacked on December 12th, 2021. Just a normal Gentoo system I keep around after being played for a month. Have no idea when I last upgraded it so if I run `emerge sync && emerge -auDN @world` now it'll last a day or so.
+Unpacked on December 12th, 2021. Just a normal Gentoo system I kept around after being played for a month. Have no idea when I last upgraded it so if I run `emerge sync && emerge -auDN @world` now it'll last a day or so.
 
 ![matt](img/linuxes/matt.png)
 
