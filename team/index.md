@@ -4,7 +4,7 @@ title: Team
 desc: DaringCuteSeal's Team
 css:
 - image-limit
-
+- navbar
 
 navbar:
 - url: /
