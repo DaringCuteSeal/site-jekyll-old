@@ -4,8 +4,13 @@ title: Team
 desc: DaringCuteSeal's Team
 css:
 - image-limit
----
 
+
+navbar:
+- url: /
+  name: Home
+---
+{{ include navbar.html }}
 
 Say hello to my friends...
 
