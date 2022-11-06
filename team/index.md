@@ -10,7 +10,7 @@ navbar:
 - url: /
   name: Home
 ---
-{{ include navbar.html }}
+{% include navbar.html %}
 
 Say hello to my friends...
 
