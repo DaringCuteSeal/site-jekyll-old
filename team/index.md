@@ -4,14 +4,19 @@ title: Team
 desc: DaringCuteSeal's Team
 css:
 - image-limit
----
+- navbar
 
+navbar:
+- url: /
+  name: Home
+---
+{% include navbar.html %}
 
 Say hello to my friends...
 
 # Physical Things
 
-## My IdeaPad Gaming 3
+## IdeaPad Gaming 3
 
 A Lenovo Gaming 3 Laptop I got back in April 2022.
 
@@ -28,7 +33,7 @@ GPU: NVIDIA GeForce RTX 3050 Mobile
 Memory: 4820MiB / 14842MiB
 ```
 
-## My Lenovo IdeaPad G400s
+## Lenovo IdeaPad G400s
 
 My laptop that I had since 2013. Dead battery and touchpad but the rest are fine. Has drank a cup of tea and survived, haha.
 
@@ -42,7 +47,7 @@ An old phone I got after one of my family got a new phone. Compatible with Andro
 ![ubuntu-touch.jpg](img/hardware/ubuntu-touch.jpg)
 
 
-## My Normie Redmi 9T Phone
+## Normie Redmi 9T Phone
 
 A phone for when I'm in my normie mode.
 *Has Google Chrome uninstalled
@@ -76,7 +81,7 @@ Rice is... exclusive for me ;)
 ![fred](img/linuxes/fred.png)
 
 ## Fern
-Bootstrapped on September 7th, 2021. My second Artix Linux. Installed on my WD disks. Its purpose is as a sandbox. It has TONS of WMs and DEs installed.
+Bootstrapped on September 7th, 2021. My second Artix Linux. Installed on my WD disk. Its purpose is as a sandbox. Has TONS of WMs and DEs installed.
 
 ![fern](img/linuxes/fern.png)
 
