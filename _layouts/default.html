@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="/assets/css/theme.css">
@@ -15,6 +15,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<meta property="og:image" content="/assets/image/pfp.png">
 		{% if page.desc %}
 		<meta name="description" content="{{ page.desc }}">
 		{% elsif layout.desc %}
