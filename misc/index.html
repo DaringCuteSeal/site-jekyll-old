@@ -10,9 +10,9 @@ navbar:
   url: /
 
 randoms:
-- name: School Materials (in Indonesian ;)
+- name: School Materials (mostly in Indonesian)
   desc: My school materials. I'm currently in eighth grade :\
-  page: school-materials
+  page: https://eightdee.notion.site/Materi-Sekolah-f0e0e7eda5f744508d2312aa8768803e
 
 desc: Miscellaneous
 ---
@@ -25,7 +25,7 @@ Miscellaneous!
 
 {% for item in page.randoms %}
 
-	<li><a href="/misc/{{ item.page }}">{{ item.name }}</a></li>
+	<li><a href="{{ item.page }}">{{ item.name }}</a></li>
 	<p>{{ item.desc }}</p>
 
 {% endfor %}
