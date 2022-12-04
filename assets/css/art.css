@@ -1,0 +1,42 @@
+@media (max-width: 715px) {
+	.art-portal {
+		display: flex;
+		flex-direction: column;
+		font-size: x-large;
+	}
+	
+	.portal-img {
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+
+	}
+
+	img {
+		height: 300px;
+		width: auto;
+	}
+}
+
+@media (min-width: 716px) {
+	.art-portal {
+		flex-direction: row;
+		justify-content: center;
+		display: flex;
+		font-size: x-large;
+	}
+	
+	img {
+		height: 300px;
+		width: auto;
+	}
+
+	.portal-img {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin: 5px;
+	}
+
+
+

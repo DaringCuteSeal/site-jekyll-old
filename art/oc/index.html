@@ -1,0 +1,40 @@
+---
+layout: default
+title: OCs
+desc: DaringCuteSeal's OCs
+
+css:
+- navbar
+- grid-vert
+
+navbar:
+- name: Home
+  url: /
+- name: All Art
+  url: /art
+
+ocs:
+- title: "The Land of Béquola"
+  name: bequola
+- title: Schuzzy
+  name: schuzzy
+- title: Michael
+  name: michael
+- title: "Maya & Layla"
+  name: maya-layla
+- title: Cathy
+  name: cathy
+- title: Narwhump
+  name: narwhump
+
+---
+{% include navbar.html %}
+
+<div class="grid">
+	{% for oc in page.ocs %}
+	<div class="grid-item">
+		<a href="{{ oc.name }}"><img src="{{ oc.name }}/thumb.png"></img></a>
+		<p><a href="{{ oc.name }}">{{ oc.title }}</a></p>
+	</div>
+	{% endfor %}
+</div>

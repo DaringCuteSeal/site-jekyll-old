@@ -1,10 +1,11 @@
 ---
 title: Art
+desc: DaringCuteSeal's Artwork
 layout: default
 
 css:
 - navbar
-- art
+- grid
 
 navbar:
 - name: Home
@@ -23,11 +24,13 @@ btns:
 {% include navbar.html %}
 
 <h1>Art</h1>
-<div class="art-portal">
+<div class="grid">
 	{% for btn in page.btns %}
-	<div class="portal-img">
+	<div class="grid-item">
+
 		<a href="{{ btn.url }}"><img src="{{ btn.img }}" height=300px></a>
 		<p><a href="{{ btn.url }}">{{ btn.name }}</a></p>
+
 	</div>
 	{% endfor %}
 
