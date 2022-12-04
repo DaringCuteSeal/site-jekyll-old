@@ -1,12 +1,34 @@
 ---
 title: Art
-layout: placeholder
+layout: default
 
 css:
 - navbar
+- art
 
 navbar:
 - name: Home
   url: /
 
+btns:
+- name: OCs
+  url: oc
+  img: /assets/image/oc.png
+- name: CGI/3D
+  url: cgi
+  img: /assets/image/cgi-3d.png
+
 ---
+
+{% include navbar.html %}
+
+<h1>Art</h1>
+<div class="art-portal">
+	{% for btn in page.btns %}
+	<div class="portal-img">
+		<a href="{{ btn.url }}"><img src="{{ btn.img }}" height=300px></a>
+		<p><a href="{{ btn.url }}">{{ btn.name }}</a></p>
+	</div>
+	{% endfor %}
+
+</div>
