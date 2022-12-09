@@ -1,0 +1,9 @@
+textarea {
+	/* resize: none;*/
+
+}
+
+.asker {
+	display: flex;
+	flex-direction: row;
+}
