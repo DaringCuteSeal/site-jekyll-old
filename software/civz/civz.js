@@ -84,7 +84,7 @@ async function parseFile()
 		}
 		catch(err)
 		{
-			alert("ERROR: failed to parse JSON data, make sure your file is a valid JSON file!");
+			alert("ERROR: Failed to parse JSON data, make sure your file is a valid JSON file!");
 			interfaceOff();
 		}
 	}
@@ -217,7 +217,7 @@ document.addEventListener('keydown', (event) => {
 if(!params.file)
 {
 
-	alert("ERROR: No file was specified! Specify a file by inputting a file as a query string.");
+	alert("ERROR: No file specified! Specify a file by inputting a file as the query string.");
 	interfaceOff();
 }
 else
