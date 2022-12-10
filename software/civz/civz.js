@@ -32,24 +32,12 @@ function appendText(string, style = null)
 }
 
 // Disable all buttons
-function btnOff()
+function interfaceOff()
 {
-	okBtn.disabled = true;
+	addBtn.disabled = true;
 	checkBtn.disabled = true;
 	clearBtn.disabled = true;
-}
-
-
-// File handling
-if(!params.file)
-{
-
-	alert("ERROR: No file was specified! Specify a file by inputting a file as a query string.");
-	btnOff();
-}
-else
-{
-	filepath = params.file;
+	textContent.disabled = true;
 }
 
 // Handle file loading
@@ -61,7 +49,7 @@ async function loadFile(url)
 		if(!response.ok)
 		{
 			alert("ERROR: Failed to load file, make sure you typed the correct file address.");
-			btnOff();
+			interfaceOff();
 
 		}
 		else
@@ -85,12 +73,23 @@ async function parseFile()
 	if(!file.title)
 	{
 		document.title = "CIVZ";
+		headerEl.textContent = "CIVZ";
 	}
 	else
 	{
 		document.title = file.title;
+		headerEl.textContent = file.title;
 	}
 
+	// Set description
+	if(!file.description)
+	{
+		descEl.textContent = "CIVZ Memorizer"
+	}
+	else
+	{
+		descEl.textContent = file.description;
+	}
 }
 
 
@@ -133,7 +132,7 @@ function clear()
 		els[0].remove();
 	}
 
-	okBtn.disabled = false;
+	addBtn.disabled = false;
 	textContent.disabled = false;
 	msgInfo.remove();
 }
@@ -154,7 +153,7 @@ function check()
 			correct = false;
 		}
 	}
-	okBtn.disabled = true;
+	addBtn.disabled = true;
 	textContent.disabled = true;
 
 	if(!correct || len < file.list.length)
@@ -171,9 +170,12 @@ function check()
 
 
 listEl = document.getElementById("list-contents");
+headerEl = document.getElementById("header");
+descEl = document.getElementById("desc");
 
 textContent = document.getElementById("inputArea");
 
+document.getElementById("addBtn").addEventListener('click', function(){ appendList(textContent.value) } );
 document.getElementById("clearBtn").addEventListener('click', clear);
 document.getElementById("checkBtn").addEventListener('click', check);
 
@@ -181,9 +183,22 @@ document.getElementById("checkBtn").addEventListener('click', check);
 document.addEventListener('keydown', (event) => {
 	const keyName = event.key;
 
-	if (event.ctrlKey && keyName == 'Enter' && document.activeElement == textContent && !okBtn.disabled && textContent.value) {
+	if (event.ctrlKey && keyName == 'Enter' && document.activeElement == textContent && !addBtn.disabled && textContent.value) {
 		btnAction()
 	}
 }, false);
+
+
+// File handling
+if(!params.file)
+{
+
+	alert("ERROR: No file was specified! Specify a file by inputting a file as a query string.");
+	interfaceOff();
+}
+else
+{
+	filepath = params.file;
+}
 
 parseFile()
