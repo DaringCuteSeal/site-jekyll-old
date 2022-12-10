@@ -1,0 +1,14 @@
+{
+	"title": "Tata Urutan Peraturan Perundang-Undangan",
+	"description": "Sebutkan tata urutan peraturan perundang-undangan!",
+	"list":
+	[
+		"UUD NRI Tahun 1945",
+		"Ketetapan MPR",
+		"Undang-Undang/Peraturan Pemerintah Pengganti Undang-Undang",
+		"Peraturan Pemerintah",
+		"Peraturan Presiden",
+		"Peraturan Daerah Provinsi",
+		"Peraturan Daerah Kabupaten/Kota"
+	]
+}
