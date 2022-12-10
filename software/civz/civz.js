@@ -85,6 +85,7 @@ async function parseFile()
 		catch(err)
 		{
 			alert("ERROR: failed to parse JSON data, make sure your file is a valid JSON file!");
+			interfaceOff();
 		}
 	}
 	
