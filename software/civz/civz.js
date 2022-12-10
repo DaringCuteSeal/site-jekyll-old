@@ -174,6 +174,7 @@ function check()
 		}
 	}
 	addBtn.disabled = true;
+	checkBtn.disabled = true;
 	textContent.disabled = true;
 	textContent.value = '';
 
