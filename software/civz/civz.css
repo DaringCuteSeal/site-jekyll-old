@@ -7,3 +7,22 @@ textarea {
 	display: flex;
 	flex-direction: row;
 }
+
+.list {
+	padding-left: 14px;
+	list-style: none;
+}
+
+li::marker {
+	color: #717171;
+	font-weight: bold;
+	position: relative; 
+}
+
+.msg_corr {
+	color: #48AF5F;
+}
+
+.msg_incorr {
+	color: #D70000;
+}
