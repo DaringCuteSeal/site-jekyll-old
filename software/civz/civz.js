@@ -130,6 +130,7 @@ function addBtnAction()
 {
 	appendList(textContent.value);
 	textContent.value = '';
+	checkBtn.disabled = false;
 
 }
 
