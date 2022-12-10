@@ -201,4 +201,6 @@ else
 	filepath = params.file;
 }
 
-parseFile()
+parseFile();
+
+appendText(document.body.style.background);
