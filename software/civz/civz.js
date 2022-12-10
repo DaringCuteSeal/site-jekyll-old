@@ -18,7 +18,7 @@ function appendText(string)
 if(!params.file)
 {
 
-	appendText("ERROR: No file was specified! Specify a file by inputting a file as a query string.");
+	alert("ERROR: No file was specified! Specify a file by inputting a file as a query string.");
 }
 else
 {
@@ -33,7 +33,7 @@ async function loadFile(url)
 
 		if(!response.ok)
 		{
-			appendText("ERROR: Failed to load file, make sure you typed the correct file address.");
+			alert("ERROR: Failed to load file, make sure you typed the correct file address.");
 		}
 		else
 		{
@@ -45,7 +45,7 @@ async function loadFile(url)
 	}
 }
 
-async function parse()
+async function parseFile()
 {
 
 	fileContent = await loadFile(filepath);
@@ -66,23 +66,31 @@ async function parse()
 
 
 // Ask
-function appendQuestion()
+function appendList(string)
 {
-	newEl = document.createElement("input");
+	newEl = document.createElement("li");
+
 	content_text = document.createTextNode(string)
 
 	newEl.appendChild(content_text);
-	document.body.appendChild(newEl);
+	listEl.appendChild(newEl);
 
 }
+
 function ask() 
 {
+	parseFile();
 
-	for(i = 0; i < file.list.length)
-	{
-
-
-	}
 
 }
-ask()
+
+parseFile()
+
+listEl = document.getElementById("list-contents");
+
+btn = document.getElementById("okBtn")
+textContent = document.getElementById("inputArea")
+btn.addEventListener('click', function() {
+	appendList(textContent.value)
+	}
+)
