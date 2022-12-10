@@ -31,6 +31,16 @@ function appendText(string, style = null)
 	return newEl;
 }
 
+// Set theme
+if(params.theme == "dark")
+{
+	document.body.style = "background-color: #181A1B; color: white";
+}
+else
+{
+	document.body.style = "background-color: white;";
+}
+
 // Disable all buttons
 function interfaceOff()
 {
@@ -66,7 +76,17 @@ async function parseFile()
 {
 
 	fileContent = await loadFile(filepath);
-	file = JSON.parse(fileContent);
+
+	if(!addBtn.disabled)
+	{
+		try {
+			file = JSON.parse(fileContent);
+		}
+		catch(err)
+		{
+			alert("ERROR: failed to parse JSON data, make sure your file is a valid JSON file!");
+		}
+	}
 	
 
 	// Set title
@@ -106,7 +126,7 @@ function appendList(string)
 
 }
 
-function btnAction() 
+function addBtnAction() 
 {
 	appendList(textContent.value);
 	textContent.value = '';
@@ -149,12 +169,13 @@ function check()
 		// mark red strings that didn't match
 		if(els[i].textContent != file.list[i])
 		{
-			els[i].style = "color: red";
+			els[i].style.color = "red";
 			correct = false;
 		}
 	}
 	addBtn.disabled = true;
 	textContent.disabled = true;
+	textContent.value = '';
 
 	if(!correct || len < file.list.length)
 	{
@@ -175,7 +196,7 @@ descEl = document.getElementById("desc");
 
 textContent = document.getElementById("inputArea");
 
-document.getElementById("addBtn").addEventListener('click', function(){ appendList(textContent.value) } );
+document.getElementById("addBtn").addEventListener('click', addBtnAction);
 document.getElementById("clearBtn").addEventListener('click', clear);
 document.getElementById("checkBtn").addEventListener('click', check);
 
@@ -184,7 +205,7 @@ document.addEventListener('keydown', (event) => {
 	const keyName = event.key;
 
 	if (event.ctrlKey && keyName == 'Enter' && document.activeElement == textContent && !addBtn.disabled && textContent.value) {
-		btnAction()
+		addBtnAction()
 	}
 }, false);
 
@@ -202,5 +223,3 @@ else
 }
 
 parseFile();
-
-appendText(document.body.style.background);
