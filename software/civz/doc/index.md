@@ -9,7 +9,7 @@ css:
 navbar:
 - name: Home
   url: /
-- name: All software
+- name: All Software
   url: /software
 - name: CIVZ Web App
   url: /software/civz
