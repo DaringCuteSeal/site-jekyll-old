@@ -113,6 +113,19 @@ async function parseFile()
 	}
 }
 
+// File handling
+if(!params.file)
+{
+
+	alert("ERROR: No file specified! Specify a file by inputting a file as the query string.");
+	interfaceOff();
+}
+else
+{
+	filepath = params.file;
+}
+
+parseFile();
 
 // Ask
 function appendList(string)
@@ -213,16 +226,3 @@ document.addEventListener('keydown', (event) => {
 }, false);
 
 
-// File handling
-if(!params.file)
-{
-
-	alert("ERROR: No file specified! Specify a file by inputting a file as the query string.");
-	interfaceOff();
-}
-else
-{
-	filepath = params.file;
-}
-
-parseFile();
