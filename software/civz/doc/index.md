@@ -15,6 +15,8 @@ navbar:
   url: /software/civz
 
 ---
+{% include navbar.html %}
+
 # About
 Embeddable list memorizer.
 From a studying survey™ at my class, a lot of my friends apparently "asked themselves" when studying, which is a bad way to memorize something.
