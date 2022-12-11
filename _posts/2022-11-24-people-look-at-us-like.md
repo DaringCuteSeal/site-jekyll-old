@@ -12,3 +12,5 @@ It's just unsettling to know that theists see you as an immoral being not capabl
 Well dude, I'm an atheist, and will always be. It's not a state. And like, I have morality, too. I actually think atheists are better at understanding morality because they do things for OTHER PEOPLE. They do it for YOU, not God. They focus on the life they live in, not the afterlife. They do kind things because it's good, not because they want to go to the heaven or scared to go to hell. They even do kind things knowing that they won't get anything in return.
 
 If you're a theist, well, we're not all that bad. You can live fine without even knowing about religion!
+
+Edit: I'm more of a pantheist, actually. The universe is the closest thing I could call "God" but I also believe that there is no proper definition for "God".
