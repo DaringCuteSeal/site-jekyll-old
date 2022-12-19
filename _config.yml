@@ -6,3 +6,17 @@ collections:
   posts:
     output: true
     permalink: /blog/:year/:month/:title
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "blog"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "project"
