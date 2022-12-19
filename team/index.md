@@ -92,6 +92,7 @@ Unpacked on December 12th, 2021. Just a normal Gentoo system I kept around after
 
 ## Lufus
 A Linux From Scratch build. Built from 12-13 December 2022.
+
 ![lufus](/blog/image/lfs.png)
 
 ## Lyra
